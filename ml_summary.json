@@ -1,0 +1,28 @@
+{
+    "Supervised_Regression": {
+        "Linear Regression": {
+            "R2_Score": 0.9736,
+            "MAE": 471.05,
+            "RMSE": 665.92
+        },
+        "Random Forest Regressor": {
+            "R2_Score": 0.956,
+            "MAE": 638.45,
+            "RMSE": 860.17
+        },
+        "Gradient Boosting Regressor": {
+            "R2_Score": 0.9565,
+            "MAE": 674.44,
+            "RMSE": 855.22
+        },
+        "Deep Learning (MLP Neural Network)": {
+            "R2_Score": 0.9357,
+            "MAE": 861.68,
+            "RMSE": 1040.02
+        }
+    },
+    "Supervised_Classification": {
+        "Random_Forest_Classifier_Accuracy": 0.5806
+    },
+    "Unsupervised_Clustering": "K-Means (k=3)"
+}
